@@ -1,0 +1,44 @@
+name: Suggest an entry
+description: Propose a new AI agent or voice tool to add to the list
+labels: ["addition"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Project / tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the repo or official site
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Category
+      options:
+        - Agent Frameworks & Orchestration
+        - Autonomous Coding Agents
+        - Voice & Speech — Speech-to-Text
+        - Voice & Speech — Text-to-Speech
+        - Realtime Voice & Telephony
+        - Agent Protocols & Standards
+        - Memory & Knowledge
+        - Tools, Integrations & Browsers
+        - Observability & Evaluation
+        - Local / Privacy-first Inference
+        - Companion & Home Assistant Agents
+        - Learning Resources
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: What does it do? (sentence case, ends with a period)
+    validations:
+      required: true
