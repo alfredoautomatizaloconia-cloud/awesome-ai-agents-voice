@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![Link Check](https://github.com/thabs1234/awesome-ai-agents-voice/actions/workflows/links.yml/badge.svg)](https://github.com/thabs1234/awesome-ai-agents-voice/actions/workflows/links.yml)
-[![Last Updated](https://img.shields.io/badge/updated-2026--08--08-blue.svg)](https://github.com/thabs1234/awesome-ai-agents-voice/commits/main)
+[![Last Updated](https://img.shields.io/badge/updated-2026--08--09-blue.svg)](https://github.com/thabs1234/awesome-ai-agents-voice/commits/main)
 
 > A curated, opinionated list of the best open-source tools, frameworks, models, and
 > projects for building **AI agents** and **voice/voice-first assistants** — from
@@ -94,11 +94,13 @@ Natural, controllable, and realtime speech synthesis.
 
 Build talking agents with sub-second latency.
 
-- [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) — Multimodal, low-latency speech-to-speech with tool calls.
-- [LiveKit](https://github.com/livekit/livekit) — Open-source WebRTC stack for realtime voice/video agents.
-- [Vapi](https://vapi.ai/) — Voice API for building phone-call and web voice agents fast.
-- [Pipecat](https://github.com/pipecat-ai/pipecat) — Framework for voice & multimodal conversational AI pipelines.
+- [LiveKit Agents](https://github.com/livekit/agents) — Production-grade Python/Node framework for realtime voice AI with WebRTC, MCP support, and semantic turn detection.
+- [livekit-examples/agent-starter-python](https://github.com/livekit-examples/agent-starter-python) — Production-ready Python starter with Dockerfile, eval suite, turn detector, and core plugins.
+- [Vocode Core](https://github.com/vocodedev/vocode-core) — Modular Python toolkit for voice-based LLM agents; phone calls, Zoom, and streaming conversations.
+- [Bolna](https://github.com/bolna-ai/bolna) — End-to-end open source voice agents platform with Twilio/Plivo/SIP telephony and JSON-configurable pipelines.
+- [Pipecat](https://github.com/pipecat-ai/pipecat) — Vendor-neutral Python framework for voice & multimodal conversational AI with 40+ STT/LLM/TTS plugins.
 - [Retell](https://www.retellai.com/) — Realtime voice agent platform with telephony built in.
+- [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) — Multimodal, low-latency speech-to-speech with tool calls.
 - [RTPingo / WebRTC](https://webrtc.org/) — The underlying realtime transport standard.
 
 ## Agent Protocols & Standards
@@ -113,67 +115,70 @@ How agents talk to tools, to each other, and to UIs.
 
 ## Memory & Knowledge
 
-Give agents durable,检索able context.
+Give agents durable, retrievable context.
 
 - [Mem0](https://github.com/mem0ai/mem0) — Self-improving memory layer for personalized agents.
 - [Zep](https://github.com/getzep/zep) — Long-term memory and knowledge graph for LLM apps.
 - [LangMem](https://github.com/langchain-ai/langmem) — Library for agent memory management.
-- [Letta (formerly MemGPT)](https://github.com/letta-ai/letta) — Agents with OS-style memory and state.
 
 ## Tools, Integrations & Browsers
 
-- [Browser-use](https://github.com/browser-use/browser-use) — Enable LLMs to control a web browser.
-- [Composio](https://github.com/ComposioHQ/composio) — 250+ tool integrations for AI agents.
-- [Agent Reach](https://github.com/agent-reach/agent-reach) — Local gateway that lets agents/devices reach the internet safely.
-- [LangChain Tools](https://python.langchain.com/docs/integrations/tools/) — Vast catalog of prebuilt agent tools.
-- [Toolhouse](https://toolhouse.ai/) — Managed tool library for any model.
+Give agents hands: web search, code execution, file access, and browser control.
+
+- [Playwright](https://github.com/microsoft/playwright) — Browser automation for agents that need to read and act on web pages.
+- [BrowserBase](https://www.browserbase.com/) — Hosted browser automation infrastructure for AI agents.
+- [Tavily](https://tavily.com/) — Search API built for agentic retrieval and grounding.
+- [Exa](https://exa.ai/) — Semantic web search for RAG and agent tool use.
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) — Async crawler optimized for LLM/RAG ingestion.
+- [FireCrawl](https://github.com/mendableai/firecrawl) — Turn any site into LLM-ready markdown.
+- [MultiOn](https://www.multion.ai/) — Agent browser that executes multi-step web tasks end-to-end.
 
 ## Observability & Evaluation
 
-Ship agents you can actually debug.
+Trace, score, and improve agent behavior in production.
 
-- [LangSmith](https://github.com/langchain-ai/langsmith-sdk) — Tracing, eval, and monitoring for LLM apps.
-- [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM engineering platform (traces, evals, prompt mgmt).
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source LLM observability and evals.
-- [Braintrust](https://github.com/braintrustdata/braintrust-sdk) — Eval-driven development for AI.
-- [OpenLLMetry](https://github.com/traceloop/openllmetry) — OpenTelemetry instrumentation for LLM apps.
+- [LangSmith](https://docs.smith.langchain.com/) — Tracing and evaluation for LangChain/LangGraph agents.
+- [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability and tracing.
+- [Braintrust](https://www.braintrust.dev/) — Eval framework and scorecards for AI products.
+- [PromptFoo](https://github.com/promptfoo/promptfoo) — Red-teaming, regression testing, and prompt evaluation.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source LLM observability with tracing and evals.
+- [OpenTelemetry AI](https://github.com/open-telemetry/opentelemetry-ai) — Standards-based observability for agent pipelines.
 
 ## Local / Privacy-first Inference
 
-Run models on your own hardware.
+Run agents and models without sending data to third-party APIs.
 
-- [Ollama](https://github.com/ollama/ollama) — Run LLMs locally with one command.
-- [LM Studio](https://lmstudio.ai/) — Desktop app for local model management and serving.
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Inference engine powering most local tooling.
-- [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving for open models.
-- [LocalAI](https://github.com/mudler/LocalAI) — OpenAI-compatible drop-in for local inference.
+- [Ollama](https://github.com/ollama/ollama) — Run Llama, Mistral, and other models locally with one command.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Optimized C/C++ inference for LLMs on CPU/GPU/Metal.
+- [LM Studio](https://lmstudio.ai/) — Desktop app for local LLM serving and agent toolkits.
+- [vLLM](https://github.com/vllm-project/vllm) — High-throughput, batched LLM serving for local or cloud deployment.
+- [GPT4All](https://github.com/nomic-ai/gpt4all) — Desktop-friendly local inference app.
+- [MLC LLM](https://github.com/mlc-ai/mlc-llm) — Universal LLM deployment for web, mobile, and desktop.
 
 ## Companion & Home Assistant Agents
 
-JARVIS-style and voice-first personal assistants.
+Always-on assistants for the desktop, home, and voice-first devices.
 
-- [Mark-L (JARVIS)](https://github.com/FatihMakes/Mark-L) — Local, extensible voice assistant with wake-word + skills.
-- [Home Assistant](https://github.com/home-assistant/core) — Open-source home automation with rich voice pipelines.
-- [OpenVoiceOS](https://github.com/OpenVoiceOS/ovos) — Voice-first, privacy-respecting assistant framework.
-- [Leon](https://github.com/leon-ai/leon) — Open-source personal assistant running on your own server.
-- [Jarvis (nextcode)](https://github.com/nextcode50/Jarvis) — Lightweight local voice assistant.
+- [Home Assistant](https://github.com/home-assistant/core) — Open-source home automation with voice and agent integrations.
+- [Open WebUI](https://github.com/open-webui/open-webui) — Web UI for local LLMs with agentic features.
+- [JARVIS](https://github.com/SuboptimalEng/jarvis) — Community-driven local voice/desktop assistant stack.
+- [Asteroid](https://github.com/asteroid-team/asteroid) — Voice assistant platform with hotword and smart-home hooks.
 
 ## Learning Resources
 
-- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) — Recreate tech from scratch, including LLM/agent pieces.
-- [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — The canonical agent-design essay.
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Recipes for agents, RAG, and function calling.
-- [LLM Agents Course (Hugging Face)](https://github.com/huggingface/agents-course) — Free, hands-on agent curriculum.
-- [Model Context Protocol Docs](https://modelcontextprotocol.io/) — Everything MCP, with SDK examples.
+Curated guides, courses, and references for agent and voice-AI builders.
 
----
+- [LangGraph Academy](https://langchain-ai.github.io/langgraph-academy/) — Hands-on courses for multi-agent orchestration.
+- [LiveKit Agents Docs](https://docs.livekit.io/agents/) — Production voice agent patterns and deployment guides.
+- [Pipecat Docs](https://docs.pipecat.ai/) — Modular voice pipeline tutorials and examples.
+- [Voice AI Handbook](https://github.com/mahimairaja/voiceai) — Developer-friendly learning path from STT to production telephony.
+- [Awesome Voice Agents](https://github.com/yzfly/awesome-voice-agents) — Curated list of voice AI frameworks, tools, and best practices.
+- [Awesome TTS & Voice Generation Models](https://github.com/wildminder/awesome-ai-voice) — Actively maintained list of open-source TTS, voice-cloning, and audio/music-generation models.
 
 ## Contributing
 
-Additions, fixes, and new categories are welcome! Please read
-[CONTRIBUTING.md](CONTRIBUTING.md) first — keep entries alphabetical, include a
-one-line description, and run the link checker before opening a PR.
+Pull requests welcome. Please open an issue before adding new categories or bulk updates.
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Do whatever you want with it.
+MIT
