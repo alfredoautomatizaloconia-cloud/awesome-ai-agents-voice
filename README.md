@@ -100,6 +100,7 @@ Build talking agents with sub-second latency.
 - [Bolna](https://github.com/bolna-ai/bolna) — End-to-end open source voice agents platform with Twilio/Plivo/SIP telephony and JSON-configurable pipelines.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) — Vendor-neutral Python framework for voice & multimodal conversational AI with 40+ STT/LLM/TTS plugins.
 - [Retell](https://www.retellai.com/) — Realtime voice agent platform with telephony built in.
+- [Hermes](https://www.buildwithhermes.com/) — Operating platform for AI voice agencies: white-label voice agents with built-in CRM, campaign orchestration, and transparent usage billing in one place. Plans from $149/mo.
 - [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) — Multimodal, low-latency speech-to-speech with tool calls.
 - [RTPingo / WebRTC](https://webrtc.org/) — The underlying realtime transport standard.
 
