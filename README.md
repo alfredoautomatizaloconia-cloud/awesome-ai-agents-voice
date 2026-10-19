@@ -126,6 +126,7 @@ Give agents durable, retrievable context.
 
 Give agents hands: web search, code execution, file access, and browser control.
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) — Local macOS CLI and stdio MCP payments with foreground owner approval for signing.
 - [Playwright](https://github.com/microsoft/playwright) — Browser automation for agents that need to read and act on web pages.
 - [BrowserBase](https://www.browserbase.com/) — Hosted browser automation infrastructure for AI agents.
 - [Tavily](https://tavily.com/) — Search API built for agentic retrieval and grounding.
