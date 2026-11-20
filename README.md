@@ -94,6 +94,7 @@ Natural, controllable, and realtime speech synthesis.
 
 Build talking agents with sub-second latency.
 
+- [Agora Conversational AI Engine](https://docs.agora.io/en) — Connects conversational voice agents to real-time audio channels using Agora SDKs and APIs.
 - [LiveKit Agents](https://github.com/livekit/agents) — Production-grade Python/Node framework for realtime voice AI with WebRTC, MCP support, and semantic turn detection.
 - [livekit-examples/agent-starter-python](https://github.com/livekit-examples/agent-starter-python) — Production-ready Python starter with Dockerfile, eval suite, turn detector, and core plugins.
 - [Vocode Core](https://github.com/vocodedev/vocode-core) — Modular Python toolkit for voice-based LLM agents; phone calls, Zoom, and streaming conversations.
@@ -103,6 +104,7 @@ Build talking agents with sub-second latency.
 - [Hermes](https://www.buildwithhermes.com/) — Operating platform for AI voice agencies: white-label voice agents with built-in CRM, campaign orchestration, and transparent usage billing in one place. Plans from $149/mo.
 - [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) — Multimodal, low-latency speech-to-speech with tool calls.
 - [RTPingo / WebRTC](https://webrtc.org/) — The underlying realtime transport standard.
+- [TEN Framework](https://github.com/TEN-framework/ten-framework) — TEN is an open-source framework for real-time multimodal conversational AI.
 
 ## Agent Protocols & Standards
 
