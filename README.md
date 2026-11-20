@@ -103,8 +103,8 @@ Build talking agents with sub-second latency.
 - [Retell](https://www.retellai.com/) — Realtime voice agent platform with telephony built in.
 - [Hermes](https://www.buildwithhermes.com/) — Operating platform for AI voice agencies: white-label voice agents with built-in CRM, campaign orchestration, and transparent usage billing in one place. Plans from $149/mo.
 - [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) — Multimodal, low-latency speech-to-speech with tool calls.
-- [TEN Framework](https://github.com/TEN-framework/ten-framework) — TEN is an open-source framework for real-time multimodal conversational AI.
 - [RTPingo / WebRTC](https://webrtc.org/) — The underlying realtime transport standard.
+- [TEN Framework](https://github.com/TEN-framework/ten-framework) — TEN is an open-source framework for real-time multimodal conversational AI.
 
 ## Agent Protocols & Standards
 
